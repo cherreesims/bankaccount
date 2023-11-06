@@ -3,7 +3,7 @@ public class Bank Account {
   private String lastName:
   private int accountID:
   private double balance;
-
+//Initialize balance to zero
   public BankAccount() {
       this.balnance = 0.0;
 }
@@ -19,7 +19,7 @@ public void withdrawl(double amount) {
         this.balance -= amount;
     }
 }
-
+//Setters & getters for firstName, lastName, and accountID
 public void setFirstName(String firstName) {
   this.firstName = firstName;
 }
@@ -35,15 +35,15 @@ public void setLastName(String lastName) {
 public String getLastName() {
     return lastName;
 }
-
+//Method to set account id
 public void setAccountID(int accountID) {
     this.accountID = accountID;
 }
-
+//Method to get balance
 public double getBalance() {
     reutrn balance;
 }
-
+//Method to get account summary
 public void accountSummary() {
   System.out.println("Account Information:");
   System.out.println("First Name: " + firstName);
